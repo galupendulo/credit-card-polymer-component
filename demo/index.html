@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>credit-card-component demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+
+    <link rel="import" href="../credit-card-component.html">
+    <link rel="import" href="../images">
+
+    <style is="custom-style" include="demo-pages-shared-styles">
+    </style>
+  </head>
+  <body>
+
+    <div class="vertical-section-container centered">
+      <h3>Basic credit-card-component Demo</h3>
+      <demo-snippet>
+        <template>
+          <credit-card-component logo="MASTERCARD" number="5467 5670 7623 0945" expired="07/14 – 10/18" name="Enrique Perez Herrero">
+          </credit-card-component>
+        </template>
+      </demo-snippet>
+    </div>
+
+  </body>
+</html>
